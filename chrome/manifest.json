@@ -3,7 +3,7 @@
 
   "name": "Service Desk Helper",
   "description": "Make It Easy!",
-  "version": "1.2",
+  "version": "1.1",
 
   "browser_action": {
     "default_icon": "icon.png"
@@ -16,7 +16,8 @@
   "content_scripts": [
     {
       "matches": [
-	"http://servicedesk.gradient.ru/Task/*"
+	"http://servicedesk.gradient.ru/Task/*",
+  "http://76.isdemo.intraservice.ru/Task/*"
       ],
       "js": ["content.js"]
      }
